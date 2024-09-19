@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background-image: linear-gradient(to left, #02dbe4, #000131);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.container {
+    max-width: 800px;
+    padding: 40px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+}
+
+.logo {
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 4em;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 1.5em;
+    color: #02dbe4;
+    margin-bottom: 30px;
+}
+
+.message {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+    line-height: 1.5;
+}
+
+.download-btn {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #01dafe;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: 700;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.download-btn:hover {
+    background-color: #0099cc;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 30px;
+    }
+
+    h1 {
+        font-size: 3em;
+    }
+
+    .subtitle {
+        font-size: 1.2em;
+    }
+
+    .message {
+        font-size: 1em;
+    }
+
+    .download-btn {
+        font-size: 1em;
+        padding: 12px 24px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 2.5em;
+    }
+
+    .logo {
+        font-size: 36px;
+    }
+}
