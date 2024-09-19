@@ -1,51 +1,60 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Seja bem-vindo(a)</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 </head>
+
 <body>
     <button id="theme-toggle" class="theme-toggle" aria-label="Alternar tema">
-        <i class="bi bi-sun"></i>
+        <i class="bi bi-moon-fill"></i>
     </button>
     <section>
         <div class="container">
             <div class="flex">
                 <div class="txt-leads">
-                    <h1>TORNE-SE UM  <br><span>DESENVOLVEDOR WEB</span></h1>
+                    <h1>TORNE-SE UM <br><span>DESENVOVLEDOR WEB</span></h1>
                     <img src="images/img.png" alt="">
                     <p>Baixe o e-book gratuito e começe sua jornada. <br><span>Tire seus projetos do papel</span></p>
                 </div> <!--FIM TXT-LEADS-->
-                <form action="https://github.us14.list-manage.com/subscribe/post?u=8ba48872eec6b269334f20d26&amp;id=96035a173f&amp;f_id=0025cfe0f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_self" novalidate="">
+                <div class="form-leads">
+                    <form
+                        action="https://github.us14.list-manage.com/subscribe/post?u=8ba48872eec6b269334f20d26&amp;id=96035a173f&amp;f_id=0025cfe0f0"
+                        method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
+                        target="_self">
                         <h2>INSIRA SEUS DADOS <br>
-                            <span>E RECEBA O E-BOOK NO SEU EMAIL</span></h2>
-                            <div class="input-box">
-                                <label for="nome">Seu nome completo*:</label>
-                                <input type="text" name="NOME" id="nome" required>
-                            </div>
-                            <div class="input-box">
-                                <label for="phone">Seu Telefone*:</label>
-                                <input type="text" name="PHONE" id="PHONE">
-                            </div>
-                            <div class="input-box">
-                                <label for="mail">Seu e-mail:</label>
-                                <input type="text" name="EMAIL" id="mail" required>
-                            </div>
-                            <div style="position: absolute; left: -5000px;" aria-hidden="true">
-                                /* real people should not fill this in and expect good things - do not remove this or risk form bot signups */
-                                <input type="text" name="b_8ba48872eec6b269334f20d26_96035a173f" tabindex="-1" value="">
-                            </div>
-                            <div class="btn-enviar">
-                                <input type="submit" value="ENVIAR">
-                            </div>
+                            <span>E RECEBA O E-BOOK NO SEU EMAIL</span>
+                        </h2>
+                        <div class="input-box">
+                            <label for="nome">Seu nome completo:</label>
+                            <input type="text" name="NOME" id="nome" required>
+                        </div>
+                        <div class="input-box">
+                            <label for="phone">Seu Telefone:</label>
+                            <input type="text" name="PHONE" id="PHONE">
+                        </div>
+                        <div class="input-box">
+                            <label for="mail">Seu e-mail:</label>
+                            <input type="text" name="EMAIL" id="mail" required>
+                        </div>
+                        <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                            /* real people should not fill this in and expect good things - do not remove this or risk
+                            form bot signups */
+                            <input type="text" name="b_8ba48872eec6b269334f20d26_96035a173f" tabindex="-1" value="">
+                        </div>
+                        <div class="btn-enviar">
+                            <input type="submit" value="ENVIAR">
+                        </div>
                     </form>
                 </div> <!--FIM FORM-LEADS-->
             </div> <!--FIM FLEX-->
         </div> <!--FIM CONTAINER-->
     </section>
-    <script src="js/theme.js"></script>
 </body>
+<script src="js/theme.js"></script>
+
 </html>
